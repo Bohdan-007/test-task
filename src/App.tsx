@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import MapWrapper from './components/MapWrapper/MapWrapper';
 
-function App() {
+
+const App: React.FC = () => {
   return (
     <div className="App">
-     qwe
+      <MapWrapper />
     </div>
   );
-}
+};
+
 
 export default App;
